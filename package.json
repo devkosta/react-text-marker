@@ -1,6 +1,9 @@
 {
-	"name": "react-text-marker",
-	"version": "1.0.0",
+	"name": "@devkosta/react-text-marker",
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com/devkosta"
+	},
+	"version": "1.1.0",
 	"description": "A React Component to Selectively Mark Words within a Body of Text.",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",

@@ -2,12 +2,12 @@ import React from 'react';
 
 export interface MarkTextProps {
     textToMark: string;
-    isCaseSensitive: boolean;
+    isCaseSensitive?: boolean;
     markedWords: Array<string>;
-    markerColor: string;
+    markerColor?: string;
 }
 
-const MarkedText = ({ textToMark, isCaseSensitive = false, markedWords, markerColor }: MarkTextProps) => {
+const MarkedText = ({ textToMark, isCaseSensitive = false, markedWords, markerColor = '#F6E05E' }: MarkTextProps) => {
 	const markElement = `<mark style='background-color: ${markerColor}'>$&</mark>`;
 	const reFlag = `g${isCaseSensitive ? '' : 'i'}`;
 

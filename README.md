@@ -39,7 +39,7 @@ const Example = () => {
 | textToMark | String | ✓ | The text in which the words will be marked. |
 | isCaseSensitive | Boolean | | The markedWord are case sensitive. Defaults to `false`. |
 | markedWords | Array<String> | ✓ | The words in which will be marked. |
-| markerColor | String | | The color of the marker. Defaults to `Yellow`. |
+| markerColor | String | | The color of the marker. Defaults to `#F6E05E`. |
 
 ## License
 
