@@ -3,7 +3,7 @@ import React from 'react';
 export interface MarkTextProps {
     textToMark: string;
     isCaseSensitive?: boolean;
-    markedWords: Array<string>;
+    markedWords: string[];
     markerColor?: string;
 }
 
@@ -17,6 +17,6 @@ const MarkedText = ({ textToMark, isCaseSensitive = false, markedWords, markerCo
 	});
 
 	return <span dangerouslySetInnerHTML={{ __html: textToMark }} />;
-};
+}
 
 export default MarkedText;
