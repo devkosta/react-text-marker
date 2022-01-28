@@ -4,7 +4,7 @@
 		"registry": "https://npm.pkg.github.com/devkosta"
 	},
 	"version": "1.2.0",
-	"description": "A React Component to Selectively Mark Words within a Body of Text.",
+	"description": "A React Component to Dynamically Mark Words within a Body of Text.",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1",
 		"lint": "tslint -p tsconfig.json",

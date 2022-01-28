@@ -1,6 +1,6 @@
 # React Text Marker
 
-A React Component to Selectively Mark Words within a Body of Text.
+A React Component to Dynamically Mark Words within a Body of Text.
 
 Check Out the [Demo](http://kostahassouros.com/).
 
